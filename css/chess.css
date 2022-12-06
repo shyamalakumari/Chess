@@ -1,0 +1,39 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+}
+#demo{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  width: 480px;
+  height: 480px;
+}
+
+.box{
+   border: 1px solid black;
+   width: 70px;
+   height: 70px;
+   box-shadow: 0px 0px 15px ; 
+}
+
+.imagepiece{
+width: 40px;
+}
+.possibleMove{
+   background-color: rgb(127, 100, 237) !important;
+}
+.hideImg{
+   display: none;
+}
+.cantkill{
+   background-color: rgb(225, 24, 2) !important;
+}
+.cankill{
+   background-color: rgb(13, 255, 0) !important;
+}
+
